@@ -34,13 +34,25 @@ printf("Movimentos de Peças de Xadrez\n");
     } while (contadorRainha <= casaRainha);
 
 
-
-
-
     // Nível Aventureiro - Movimentação do Cavalo
-    // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
-    // Um loop pode representar a movimentação horizontal e outro vertical.
+     //Movimento do Cavalo (2 casas para Cima e 1 para Direita) usando LoopFOR
+    int movimentoCavalo = 1;
+    printf("\nMovimento do Cavalo:\n");
 
+    while (movimentoCavalo--){
+
+        for(int i = 0; i < 2; i++){ //vai imprimir 2 vezes "Cima"
+            printf("Cima\n");
+        }
+
+        printf("Direita\n"); //imprime 1 vez "Direita"
+    }
+
+
+
+
+
+  
     // Nível Mestre - Funções Recursivas e Loops Aninhados
     // Sugestão: Substitua as movimentações das peças por funções recursivas.
     // Exemplo: Crie uma função recursiva para o movimento do Bispo.
