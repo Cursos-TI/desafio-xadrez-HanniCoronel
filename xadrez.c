@@ -6,8 +6,6 @@
 
 int main() {
     // Nível Novato - Movimentação das Peças
-    // Sugestão: Declare variáveis constantes para representar o número de casas que cada peça pode se mover.
-
 printf("Movimentos de Peças de Xadrez\n");
 
     // Movimento da Torre (5 casas para a Direita) usando FOR
